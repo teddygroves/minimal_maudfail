@@ -2,6 +2,7 @@
 
 # Instructions:
 
+0. Fresh python 3 environment
 1. Install python dependencies
 ```shell
 pip install -r requirements.txt
