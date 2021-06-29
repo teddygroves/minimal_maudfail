@@ -1,0 +1,5 @@
+output/linear/*
+!output/linear/readme.md
+*.hpp
+*.DS_Store
+model
