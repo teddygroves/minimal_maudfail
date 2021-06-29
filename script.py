@@ -10,7 +10,7 @@ SAMPLE_KWARGS = {
     "iter_warmup": 10,
     "iter_sampling": 10,
 }
-DOT_CMDSTANPY_DIR = os.path.join(Path.home(), ".cmdstanpy")
+DOT_CMDSTANPY_DIR = os.path.join(Path.home(), ".cmdstan")
 CMDSTAN_VERSIONS = [
     os.path.join(DOT_CMDSTANPY_DIR, d)
     for d in ["cmdstan-2.27.0", "cmdstan-2.27.0-rc1"]
