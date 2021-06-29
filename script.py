@@ -7,8 +7,8 @@ DATA_FILE = os.path.join("data", "linear.json")
 OUTPUT_DIR = os.path.join("output", "linear")
 SAMPLE_KWARGS = {
     "chains": 1,
-    "iter_warmup": 1,
-    "iter_sampling": 1,
+    "iter_warmup": 10,
+    "iter_sampling": 10,
 }
 DOT_CMDSTANPY_DIR = os.path.join(Path.home(), ".cmdstanpy")
 CMDSTAN_VERSIONS = [
