@@ -3,3 +3,4 @@ output/linear/*
 *.hpp
 *.DS_Store
 model
+cmdstan*
