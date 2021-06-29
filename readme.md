@@ -7,7 +7,7 @@
 pip install -r requirements.txt
 ```
 2. Install cmdstan 2.27.0
-3. Install cmdstan 2.27.0-rc2
+3. Install cmdstan 2.27.0-rc1
 4. run the script
 ```shell
 python script.py
