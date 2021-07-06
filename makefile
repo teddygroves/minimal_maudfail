@@ -9,6 +9,11 @@ REQUIREMENTS_FILE = requirements.txt
 MODEL_BINARY_FILE = model
 MODEL_HPP_FILE = model.hpp
 
+ifeq ($(OS),Windows_NT)
+	MAKE_PROGRAM = mingw32-make
+else
+	MAKE_PROGRAM = make
+endif
 
 stan-environment: python-requirements $(CMDSTAN_2270) $(CMDSTAN_2270_rc1)
 
@@ -23,7 +28,7 @@ $(CMDSTAN_2270): python-requirements
 $(CMDSTAN_2270_rc1): python-requirements
 	-install_cmdstan --version=2.27.0-rc1 --dir=cmdstan 
 	mv cmdstan/cmdstan cmdstan/cmdstan-2.27.0-rc1
-	cd cmdstan/cmdstan-2.27.0-rc1 && make build
+	cd cmdstan/cmdstan-2.27.0-rc1 && $(MAKE_PROGRAM) build
 
 clean-stan:
 	$(RM) $(MODEL_BINARY_FILE) $(MODEL_HPP_FILE)
