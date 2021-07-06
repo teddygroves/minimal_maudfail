@@ -1,15 +1,19 @@
 from cmdstanpy import CmdStanModel, set_cmdstan_path
 import os
-from pathlib import Path
+
 
 MODEL_FILE = "model.stan"
 DATA_FILE = os.path.join("data", "linear.json")
 OUTPUT_DIR = os.path.join("output", "linear")
 SAMPLE_KWARGS = {
     "chains": 1,
-    "iter_warmup": 10,
-    "iter_sampling": 10,
-    "metric": "dense"
+    "iter_warmup": 20,
+    "iter_sampling": 20,
+    # "metric": "dense",
+    "save_warmup": True,
+    "show_progress": True,
+    "inits": 0,
+    "refresh": 1
 }
 CMDSTAN_DIR = "cmdstan"
 CMDSTAN_VERSIONS = ["cmdstan-2.27.0", "cmdstan-2.27.0-rc1"]
@@ -27,7 +31,7 @@ def main():
             os.mkdir(output_dir)
         model = CmdStanModel(stan_file=MODEL_FILE, compile=False)
         model.compile(force=True)
-        fit = model.sample(data=DATA_FILE, **sample_kwargs)
+        model.sample(data=DATA_FILE, **sample_kwargs)
 
 
 if __name__ == "__main__":
