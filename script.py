@@ -1,20 +1,26 @@
+"""Configure the variable `DATA_DIRNAME` with the name of a director that lives
+in the `data` directory.
+
+The specified directory should contain files called `stan_input_data.json`,
+`config.toml` and optionally `inits.json`.
+
+`config.toml` Should have a table `sample_kwargs` with keyword arguments to
+`cmdstanpy.CmdStanModel.sample` and a boolean field `use_inits_file` that
+specifies whether or not to use `inits.json`.
+
+"""
+
 from cmdstanpy import CmdStanModel, set_cmdstan_path
 import os
+import toml
 
+DATA_DIRNAME = "linear"
 
 MODEL_FILE = "model.stan"
-DATA_FILE = os.path.join("data", "linear.json")
-OUTPUT_DIR = os.path.join("output", "linear")
-SAMPLE_KWARGS = {
-    "chains": 1,
-    "iter_warmup": 20,
-    "iter_sampling": 20,
-    # "metric": "dense",
-    "save_warmup": True,
-    "show_progress": True,
-    "inits": 0,
-    "refresh": 1
-}
+DATA_DIR = os.path.join("data", DATA_DIRNAME)
+STAN_INPUT_DATA_FILE = os.path.join(DATA_DIR, "stan_input_data.json")
+CONFIG_FILE = os.path.join(DATA_DIR, "config.toml")
+OUTPUT_DIR = os.path.join("output", DATA_DIRNAME)
 CMDSTAN_DIR = "cmdstan"
 CMDSTAN_VERSIONS = ["cmdstan-2.27.0", "cmdstan-2.27.0-rc1"]
 CMDSTAN_DIRS = [os.path.join(CMDSTAN_DIR, d) for d in CMDSTAN_VERSIONS]
@@ -25,13 +31,16 @@ def main():
         output_dir = os.path.join(OUTPUT_DIR, cmdstan_version)
         cmdstan_dir = os.path.join(CMDSTAN_DIR, cmdstan_version)
         set_cmdstan_path(cmdstan_dir)
-        sample_kwargs = SAMPLE_KWARGS.copy()
+        config = toml.load(CONFIG_FILE)
+        sample_kwargs = config["sample_kwargs"]
+        if "use_inits_file" in config.keys() and config["use_inits_file"]:
+            sample_kwargs["inits"] = os.path.join(DATA_DIR, "inits.json")
         sample_kwargs["output_dir"] = output_dir
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
         model = CmdStanModel(stan_file=MODEL_FILE, compile=False)
         model.compile(force=True)
-        model.sample(data=DATA_FILE, **sample_kwargs)
+        model.sample(data=STAN_INPUT_DATA_FILE, **sample_kwargs)
 
 
 if __name__ == "__main__":
