@@ -1,1 +1,2 @@
 cmdstanpy==v0.9.76
+tqdm

@@ -1,26 +1,31 @@
 # A small example to illustrate when our model fails
 
+We have been trying to fit Bayesian models of metabolic networks with Stan -
+check out our progress [here](https://github.com/biosustain/Maud). Our models'
+speed is limited by the need to solve ODEs with large numbers of parameters
+compared to the number of state variables, so we are hopeful of being able to
+achieve a speedup using Stan's new adjoint ODE solver.
+
+However, starting with cmdstan version 2.27.0 we began to see some errors that
+were not thrown in version 2.27.0-rc1. This repository provides an example that
+reproduces this error.
+
 # Instructions:
 
 0. Fresh python 3 environment
-1. Install python dependencies
-```shell
-pip install -r requirements.txt
 ```
-2. Install cmdstan 2.27.0
-```shell
-install_cmdstan --version=2.27.0 --dir=cmdstan
+python -m venv venv_maudfail
+source venv_maudfail/bin/activate
 ```
-3. Install cmdstan 2.27.0-rc1 (requires a few manual steps)
+1. Install cmdstanpy, cmdstan 2.27.0 and cmdstan2.27.0-rc1 (the last two go to the directory `cmdstan`)
 ```shell
-install_cmdstan --version=2.27.0-rc1 --dir=cmdstan # this step errors
-mv cmdstan/cmdstan cmdstan/cmdstan-2.27.0-rc1
-cd cmdstan/cmdstan-2.27.0-rc1
-make build
-cd ../../
+make stan-environment
 ```
-4. run the script
+2. run the script
 ```shell
 python script.py
 ```
-
+3. Check out the results
+```shell
+ls output/linear/*
+```
