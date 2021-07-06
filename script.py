@@ -28,7 +28,7 @@ def main():
         sample_kwargs = SAMPLE_KWARGS.copy()
         sample_kwargs["output_dir"] = output_dir
         if not os.path.exists(output_dir):
-            os.mkdir(output_dir)
+            os.makedirs(output_dir)
         model = CmdStanModel(stan_file=MODEL_FILE, compile=False)
         model.compile(force=True)
         model.sample(data=DATA_FILE, **sample_kwargs)
