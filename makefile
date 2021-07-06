@@ -10,7 +10,7 @@ MODEL_BINARY_FILE = model
 MODEL_HPP_FILE = model.hpp
 
 
-stan-environment: python_requirements $(CMDSTAN_2270) $(CMDSTAN_2270_rc1)
+stan-environment: python-requirements $(CMDSTAN_2270) $(CMDSTAN_2270_rc1)
 
 python-requirements: $(REQUIREMENTS_FILE)
 	pip install -r requirements.txt
