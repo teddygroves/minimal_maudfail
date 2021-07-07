@@ -1,0 +1,9 @@
+use_inits_file = true
+
+[sample_kwargs]
+chains = 1
+iter_warmup = 10
+iter_sampling = 10
+save_warmup = true
+show_progress = true
+refresh = 1
