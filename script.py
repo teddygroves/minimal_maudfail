@@ -27,6 +27,10 @@ CMDSTAN_DIRS = [os.path.join(CMDSTAN_DIR, d) for d in CMDSTAN_VERSIONS]
 
 def main():
     for cmdstan_version in CMDSTAN_VERSIONS:
+        if os.path.exists("model"):
+            os.remove("model")
+        if os.path.exists("model.hpp"):
+            os.remove("model.hpp")
         print(f"\nTesting cmdstan version {cmdstan_version}...")
         output_dir = os.path.join(OUTPUT_DIR, cmdstan_version)
         cmdstan_dir = os.path.join(CMDSTAN_DIR, cmdstan_version)
@@ -38,8 +42,7 @@ def main():
         sample_kwargs["output_dir"] = output_dir
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
-        model = CmdStanModel(stan_file=MODEL_FILE, compile=False)
-        model.compile(force=True)
+        model = CmdStanModel(stan_file=MODEL_FILE)
         model.sample(data=STAN_INPUT_DATA_FILE, **sample_kwargs)
 
 
