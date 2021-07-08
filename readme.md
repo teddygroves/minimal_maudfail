@@ -10,6 +10,13 @@ However, starting with cmdstan version 2.27.0 we began to see some errors that
 were not thrown in version 2.27.0-rc1. This repository provides an example that
 reproduces this error.
 
+# Requirements
+- wget
+- tar
+- make
+- C++ toolchain
+- Python 3.7+
+
 # Instructions:
 
 0. Fresh python 3 environment
