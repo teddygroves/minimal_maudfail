@@ -22,7 +22,7 @@ STAN_INPUT_DATA_FILE = os.path.join(DATA_DIR, "stan_input_data.json")
 CONFIG_FILE = os.path.join(DATA_DIR, "config.toml")
 OUTPUT_DIR = os.path.join("output", DATA_DIRNAME)
 CMDSTAN_DIR = "cmdstan"
-CMDSTAN_VERSIONS = ["cmdstan-2.27.0", "cmdstan-2.27.0-rc1"]
+CMDSTAN_VERSIONS = ["cmdstan-ode-adjoint-v2", "cmdstan-2.27.0", "cmdstan-2.27.0-rc1"]
 CMDSTAN_DIRS = [os.path.join(CMDSTAN_DIR, d) for d in CMDSTAN_VERSIONS]
 
 def main():
