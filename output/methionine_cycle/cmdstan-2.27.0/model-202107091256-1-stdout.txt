@@ -1,0 +1,266 @@
+method = sample (Default)
+  sample
+    num_samples = 50
+    num_warmup = 50
+    save_warmup = 1
+    thin = 1 (Default)
+    adapt
+      engaged = 1 (Default)
+      gamma = 0.050000000000000003 (Default)
+      delta = 0.80000000000000004 (Default)
+      kappa = 0.75 (Default)
+      t0 = 10 (Default)
+      init_buffer = 75 (Default)
+      term_buffer = 50 (Default)
+      window = 25 (Default)
+    algorithm = hmc (Default)
+      hmc
+        engine = nuts (Default)
+          nuts
+            max_depth = 11
+        metric = diag_e (Default)
+        metric_file =  (Default)
+        stepsize = 9.9999999999999995e-07
+        stepsize_jitter = 0 (Default)
+id = 1
+data
+  file = data/methionine_cycle/stan_input_data.json
+init = data/methionine_cycle/inits.json
+random
+  seed = 97585
+output
+  file = /Users/tedgro/dtu/projects/minimal_maudfail/output/methionine_cycle/cmdstan-2.27.0/model-202107091256-1.csv
+  diagnostic_file =  (Default)
+  refresh = 1
+  sig_figs = -1 (Default)
+  profile_file = profile.csv (Default)
+
+
+Non-steady state in experiment 1.
+Balanced metabolite concentration at 600 seconds: [44.0965,0.255775,0.0144174,4.10679e-05,0.0883473]
+Balanced metabolite concentration at 610 seconds: [44.7849,0.255809,0.0144445,4.1068e-05,0.0883591]
+flux: [0.327917,-0.439661,0.750481,0.19203,0.327923,0.135892,0.0170972,0.0859632,0.117821,0.868309]
+conc_init: [0.337216,0.003076,0.00571,0.001286,1.4183,0.754485,0.002245,0.058624,1.46579,2.07501,0.000797,0.003568,0.900556,0.003313,0.001205,0.23933,1.03714,0.361268,0.000125,1.62668,0.023195]
+conc_unbalanced: [0.0128985,1.30553,6.17582,0.00394176,0.114297,1.51866,5.03111,3.28654,0.00263299,0.00111042,0.235855,1.00295,0.174938,3.27807e-05,1.73754,0.0257143]
+conc_enzyme_experiment: [1.10523,0.820686,1.42686,1.00059,0.846767,1.03778,1.13935,0.823333,0.84973]
+km: [0.000163884,2.93398,0.000625228,0.0108972,0.0899142,0.0145826,0.00237362,0.0383936,0.00137823,0.00289774,0.0142576,3.76773,0.822124,0.144697,0.711688,4.88368,0.117556,0.00894989,0.00458791,0.00489574,2.33472,0.0024665,0.106787,0.0186084,0.0821909,0.0235197]
+drain: [0.117822,0.868319]
+kcat: [289.827,13.2143,18.2106,3.19579,0.237887,23.6443,0.884028,1.57435,3.58571]
+keq: [0.00134663,0.38061,1.48927e+55,0.000247945,0.000807828,0.000807828,741.495,110.323,0.335051,3.93229e+84,2.54305e-85]
+ki: [0.0645118,0.027178]
+diss_t: [2.48872,0.000795197]
+diss_r: [0.0126389,0.159477,0.0110053,0.00228688]
+transfer_constant: [0.0458225,0.19875,0.176051,1.98888]
+kcat_phos: []
+conc_phos_experiment: []
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+Exception: Non-steady state in experiment 1 (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 410, column 6 to column 51)
+
+Non-steady state in experiment 1.
+Balanced metabolite concentration at 600 seconds: [108.161,7.09724e-13,1.79161e-10,3.78398e-12,3.71365e-14]
+Balanced metabolite concentration at 610 seconds: [109.958,7.11211e-13,1.78599e-10,3.79289e-12,3.72238e-14]
+flux: [1.3349e-10,-2.41857e-07,1.94173e-08,2.78592e-09,1.35111e-10,1.06703e-09,-5.94291e-08,0.179704,5.42099e-09,2.48395e-08]
+conc_init: [0.337216,0.003076,0.00571,0.001286,1.4183,0.754485,0.002245,0.058624,1.46579,2.07501,0.000797,0.003568,0.900556,0.003313,0.001205,0.23933,1.03714,0.361268,0.000125,1.62668,0.023195]
+conc_unbalanced: [0.0102577,1.45452,1.22493,0.00358947,0.13531,1.7196,0.468822,0.676183,0.00669956,0.00117986,0.219757,0.882026,0.206591,1.69535e-05,1.68112,0.021862]
+conc_enzyme_experiment: [0.833357,1.09959,1.54876,0.839407,0.86125,1.00334,1.04295,1.07277,0.934493]
+km: [0.00774347,0.323325,0.00015986,0.000188627,1.11438,0.0244666,0.000218206,0.00302752,0.0102979,0.00293241,0.367169,0.768686,0.129297,0.0230392,0.0641696,0.0355372,0.00169123,0.0108254,0.00534465,0.00810006,0.486876,0.00242697,1.93813,0.150566,0.0790178,0.0240443]
+drain: [0.145975,0.668871]
+kcat: [171.082,29.0868,34.2497,9.86665,102.065,4.96844,2.47256,1.81063,3.00664]
+keq: [6.4974,3.39081e-08,1.20875e+57,4.56424e-05,465.095,465.095,3.37365,9.57152e-08,1.7094e+06,2.69715e+90,3.70762e-91]
+ki: [0.00207523,0.0358364]
+diss_t: [5.04191,0.000761682]
+diss_r: [0.0266477,0.0921951,3.68945,0.0311395]
+transfer_constant: [0.438992,0.271676,0.166116,12.2798]
+kcat_phos: []
+conc_phos_experiment: []
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+Exception: Non-steady state in experiment 1 (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 410, column 6 to column 51)
+
+Non-steady state in experiment 1.
+Balanced metabolite concentration at 600 seconds: [34.824,-2.25046e-12,-5.50953e-09,-1.60013e-14,-2.69051e-20]
+Balanced metabolite concentration at 610 seconds: [35.4004,-2.10011e-12,-5.44243e-09,-1.49319e-14,-1.56065e-20]
+flux: [-9.56059e-11,1.11112e-12,-9.57895e-11,-4.0613e-07,-6.90171e-19,2.50127e-09,-1.31694e-11,0.0576368,-3.99891e-15,-2.41862e-14]
+conc_init: [0.337216,0.003076,0.00571,0.001286,1.4183,0.754485,0.002245,0.058624,1.46579,2.07501,0.000797,0.003568,0.900556,0.003313,0.001205,0.23933,1.03714,0.361268,0.000125,1.62668,0.023195]
+conc_unbalanced: [0.000963905,1.39178,0.46111,0.00203359,0.0504516,1.71333,0.508387,0.160687,0.00246032,0.00130663,0.209963,0.988508,0.153452,0.000549583,1.62638,0.0239128]
+conc_enzyme_experiment: [1.05289,1.17706,1.45051,0.881783,0.847103,1.0692,0.940447,1.10887,0.872946]
+km: [0.124393,6.44,0.000183092,0.000688475,0.200502,0.026141,4.07113e-05,0.00018509,0.00515192,0.00213664,0.0782005,0.076868,43.9851,0.26293,31.365,0.036125,0.00118248,0.00978959,0.00762173,0.00626026,0.672759,0.00166175,0.443241,0.18225,0.0807014,0.0241709]
+drain: [0.14863,0.898946]
+kcat: [261.86,28.4906,21.5972,6.8306,0.182123,20.4281,61.0293,1.26111,2.49567]
+keq: [12.6289,6.32093e-08,6.63225e+54,3.89169e-06,471.168,471.168,0.000944434,1.85974e-06,2.85851e-06,3.31062e+90,3.02058e-91]
+ki: [0.980867,0.000436217]
+diss_t: [3.17872,0.00141879]
+diss_r: [0.646195,0.334771,0.421034,0.000112468]
+transfer_constant: [0.0250879,0.142483,0.00234354,0.280563]
+kcat_phos: []
+conc_phos_experiment: []
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+Exception: Non-steady state in experiment 1 (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 410, column 6 to column 51)
+
+Non-steady state in experiment 1.
+Balanced metabolite concentration at 600 seconds: [2.97868,0.0681337,44.7457,0.000194117,0.0363239]
+Balanced metabolite concentration at 610 seconds: [2.93527,0.0682102,45.0672,0.000194369,0.0362992]
+flux: [0.690023,1.98156e-05,0.630394,0.43458,0.72259,0.25545,0.0596095,0.0551663,0.122293,0.785252]
+conc_init: [0.337216,0.003076,0.00571,0.001286,1.4183,0.754485,0.002245,0.058624,1.46579,2.07501,0.000797,0.003568,0.900556,0.003313,0.001205,0.23933,1.03714,0.361268,0.000125,1.62668,0.023195]
+conc_unbalanced: [0.000790341,1.05244,2.1405,0.00185007,0.150359,1.36156,0.897367,0.670346,0.00296118,0.00122977,0.283129,1.00766,0.699813,4.85312e-05,1.71755,0.0186318]
+conc_enzyme_experiment: [1.05721,1.21879,1.34255,0.898932,0.983419,1.19307,0.9375,0.905671,1.22074]
+km: [0.00067402,5.76322,0.000202504,0.00106633,1.95368,0.0147798,0.00103465,0.0401268,0.0182396,0.00240573,0.0554628,46.1326,0.885702,0.161359,0.0942711,2.92528,0.00472137,0.010423,0.00737136,0.00542279,0.195716,0.00212487,0.0968968,0.000920553,0.0852432,0.0173653]
+drain: [0.122296,0.785273]
+kcat: [235.601,15.0845,44.6546,17.0475,0.885558,47.3343,0.292537,2.17299,2.4261]
+keq: [0.0191449,374.004,6.74275e+55,0.000133703,1.72258e-09,1.72258e-09,314.454,621312,4.56686e-17,2.63974e+80,3.78825e-81]
+ki: [0.00847577,9.88294e-05]
+diss_t: [13.389,0.015974]
+diss_r: [0.324919,0.195031,0.0164215,0.00020012]
+transfer_constant: [7.11081,0.0425999,0.155801,3.32378]
+kcat_phos: []
+conc_phos_experiment: []
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+Exception: Non-steady state in experiment 1 (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 410, column 6 to column 51)
+
+Non-steady state in experiment 1.
+Balanced metabolite concentration at 600 seconds: [124.287,0.158378,0.258432,0.000162452,1.43336]
+Balanced metabolite concentration at 610 seconds: [125.402,0.158569,0.259117,0.000162455,1.4375]
+flux: [0.525823,-0.0075298,0.608491,0.523952,0.525912,0.00189008,-0.0751376,0.0369437,0.148134,0.757131]
+conc_init: [0.337216,0.003076,0.00571,0.001286,1.4183,0.754485,0.002245,0.058624,1.46579,2.07501,0.000797,0.003568,0.900556,0.003313,0.001205,0.23933,1.03714,0.361268,0.000125,1.62668,0.023195]
+conc_unbalanced: [0.00100295,1.87676,0.621023,0.00120824,0.0444373,1.42209,0.28236,0.414367,0.00510302,0.00108852,0.264417,1.11947,1.11557,0.000111481,1.50481,0.0226195]
+conc_enzyme_experiment: [1.15368,1.0295,1.50015,0.825974,1.21184,0.87413,0.833761,0.926986,0.961203]
+km: [0.109628,55.0091,0.183711,0.0109632,8.84331,0.022083,0.0277615,0.0439305,0.0130544,0.00259363,1.23899,0.037122,30.5273,0.514257,52.2994,4.36515,0.00496426,0.00891008,0.00746989,0.00720247,0.404997,0.00153663,0.164896,0.0285688,0.077089,0.0234214]
+drain: [0.148134,0.757131]
+kcat: [288.873,10.7606,33.0591,3.78753,0.106327,69.5287,1.825,1.36171,1.98826]
+keq: [2.31227e-06,1.80159,4.39052e+59,0.00535419,0.0784071,0.0784071,6.71666,0.970485,5.80318e-10,2.57782e+86,3.87925e-87]
+ki: [0.784372,0.000107595]
+diss_t: [0.537758,0.00104865]
+diss_r: [0.0975407,0.417369,0.00207973,0.00148905]
+transfer_constant: [7.73548,0.10591,1.80518,63.0415]
+kcat_phos: []
+conc_phos_experiment: []
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+Exception: Non-steady state in experiment 1 (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 410, column 6 to column 51)
+
+Gradient evaluation took 0.076691 seconds
+1000 transitions using 10 leapfrog steps per transition would take 766.91 seconds.
+Adjust your expectations accordingly!
+
+
+WARNING: There aren't enough warmup iterations to fit the
+         three stages of adaptation as currently configured.
+         Reducing each adaptation stage to 15%/75%/10% of
+         the given number of warmup iterations:
+           init_buffer = 7
+           adapt_window = 38
+           term_buffer = 5
+
+Iteration:  1 / 100 [  1%]  (Warmup)
+Iteration:  2 / 100 [  2%]  (Warmup)
+Iteration:  3 / 100 [  3%]  (Warmup)
+Iteration:  4 / 100 [  4%]  (Warmup)
+Iteration:  5 / 100 [  5%]  (Warmup)
+Iteration:  6 / 100 [  6%]  (Warmup)
+Iteration:  7 / 100 [  7%]  (Warmup)
+Iteration:  8 / 100 [  8%]  (Warmup)
+Iteration:  9 / 100 [  9%]  (Warmup)
+Iteration: 10 / 100 [ 10%]  (Warmup)
+Iteration: 11 / 100 [ 11%]  (Warmup)
+Iteration: 12 / 100 [ 12%]  (Warmup)
+Iteration: 13 / 100 [ 13%]  (Warmup)
+Iteration: 14 / 100 [ 14%]  (Warmup)
+Iteration: 15 / 100 [ 15%]  (Warmup)
+Iteration: 16 / 100 [ 16%]  (Warmup)
+Iteration: 17 / 100 [ 17%]  (Warmup)
+Iteration: 18 / 100 [ 18%]  (Warmup)
+Iteration: 19 / 100 [ 19%]  (Warmup)
+Iteration: 20 / 100 [ 20%]  (Warmup)
+Iteration: 21 / 100 [ 21%]  (Warmup)
+Iteration: 22 / 100 [ 22%]  (Warmup)
+Iteration: 23 / 100 [ 23%]  (Warmup)
+Iteration: 24 / 100 [ 24%]  (Warmup)
+Iteration: 25 / 100 [ 25%]  (Warmup)
+Iteration: 26 / 100 [ 26%]  (Warmup)
+Iteration: 27 / 100 [ 27%]  (Warmup)
+Iteration: 28 / 100 [ 28%]  (Warmup)
+Iteration: 29 / 100 [ 29%]  (Warmup)
+Iteration: 30 / 100 [ 30%]  (Warmup)
+Iteration: 31 / 100 [ 31%]  (Warmup)
+Iteration: 32 / 100 [ 32%]  (Warmup)
+Iteration: 33 / 100 [ 33%]  (Warmup)
+Iteration: 34 / 100 [ 34%]  (Warmup)
+Iteration: 35 / 100 [ 35%]  (Warmup)
+Iteration: 36 / 100 [ 36%]  (Warmup)
+Iteration: 37 / 100 [ 37%]  (Warmup)
+Iteration: 38 / 100 [ 38%]  (Warmup)
+Iteration: 39 / 100 [ 39%]  (Warmup)
+Iteration: 40 / 100 [ 40%]  (Warmup)
+Iteration: 41 / 100 [ 41%]  (Warmup)
+Iteration: 42 / 100 [ 42%]  (Warmup)
+Iteration: 43 / 100 [ 43%]  (Warmup)
+Iteration: 44 / 100 [ 44%]  (Warmup)
+Iteration: 45 / 100 [ 45%]  (Warmup)
+Iteration: 46 / 100 [ 46%]  (Warmup)
+Iteration: 47 / 100 [ 47%]  (Warmup)
+Iteration: 48 / 100 [ 48%]  (Warmup)
+Iteration: 49 / 100 [ 49%]  (Warmup)
+Iteration: 50 / 100 [ 50%]  (Warmup)
+Iteration: 51 / 100 [ 51%]  (Sampling)
+Iteration: 52 / 100 [ 52%]  (Sampling)
+Iteration: 53 / 100 [ 53%]  (Sampling)
+Iteration: 54 / 100 [ 54%]  (Sampling)
+Iteration: 55 / 100 [ 55%]  (Sampling)
+Iteration: 56 / 100 [ 56%]  (Sampling)
+Iteration: 57 / 100 [ 57%]  (Sampling)
+Iteration: 58 / 100 [ 58%]  (Sampling)
+Iteration: 59 / 100 [ 59%]  (Sampling)
+Iteration: 60 / 100 [ 60%]  (Sampling)
+Iteration: 61 / 100 [ 61%]  (Sampling)
+Iteration: 62 / 100 [ 62%]  (Sampling)
+Iteration: 63 / 100 [ 63%]  (Sampling)
+Iteration: 64 / 100 [ 64%]  (Sampling)
+Iteration: 65 / 100 [ 65%]  (Sampling)
+Iteration: 66 / 100 [ 66%]  (Sampling)
+Iteration: 67 / 100 [ 67%]  (Sampling)
+Iteration: 68 / 100 [ 68%]  (Sampling)
+Iteration: 69 / 100 [ 69%]  (Sampling)
+Iteration: 70 / 100 [ 70%]  (Sampling)
+Iteration: 71 / 100 [ 71%]  (Sampling)
+Iteration: 72 / 100 [ 72%]  (Sampling)
+Iteration: 73 / 100 [ 73%]  (Sampling)
+Iteration: 74 / 100 [ 74%]  (Sampling)
+Iteration: 75 / 100 [ 75%]  (Sampling)
+Iteration: 76 / 100 [ 76%]  (Sampling)
+Iteration: 77 / 100 [ 77%]  (Sampling)
+Iteration: 78 / 100 [ 78%]  (Sampling)
+Iteration: 79 / 100 [ 79%]  (Sampling)
+Iteration: 80 / 100 [ 80%]  (Sampling)
+Iteration: 81 / 100 [ 81%]  (Sampling)
+Iteration: 82 / 100 [ 82%]  (Sampling)
+Iteration: 83 / 100 [ 83%]  (Sampling)
+Iteration: 84 / 100 [ 84%]  (Sampling)
+Iteration: 85 / 100 [ 85%]  (Sampling)
+Iteration: 86 / 100 [ 86%]  (Sampling)
+Iteration: 87 / 100 [ 87%]  (Sampling)
+Iteration: 88 / 100 [ 88%]  (Sampling)
+Iteration: 89 / 100 [ 89%]  (Sampling)
+Iteration: 90 / 100 [ 90%]  (Sampling)
+Iteration: 91 / 100 [ 91%]  (Sampling)
+Iteration: 92 / 100 [ 92%]  (Sampling)
+Iteration: 93 / 100 [ 93%]  (Sampling)
+Iteration: 94 / 100 [ 94%]  (Sampling)
+Iteration: 95 / 100 [ 95%]  (Sampling)
+Iteration: 96 / 100 [ 96%]  (Sampling)
+Iteration: 97 / 100 [ 97%]  (Sampling)
+Iteration: 98 / 100 [ 98%]  (Sampling)
+Iteration: 99 / 100 [ 99%]  (Sampling)
+Iteration: 100 / 100 [100%]  (Sampling)
+
+ Elapsed Time: 54.311 seconds (Warm-up)
+               46.22 seconds (Sampling)
+               100.531 seconds (Total)
+

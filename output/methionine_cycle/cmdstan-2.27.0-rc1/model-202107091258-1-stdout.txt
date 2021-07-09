@@ -1,0 +1,175 @@
+method = sample (Default)
+  sample
+    num_samples = 50
+    num_warmup = 50
+    save_warmup = 1
+    thin = 1 (Default)
+    adapt
+      engaged = 1 (Default)
+      gamma = 0.050000000000000003 (Default)
+      delta = 0.80000000000000004 (Default)
+      kappa = 0.75 (Default)
+      t0 = 10 (Default)
+      init_buffer = 75 (Default)
+      term_buffer = 50 (Default)
+      window = 25 (Default)
+    algorithm = hmc (Default)
+      hmc
+        engine = nuts (Default)
+          nuts
+            max_depth = 11
+        metric = diag_e (Default)
+        metric_file =  (Default)
+        stepsize = 9.9999999999999995e-07
+        stepsize_jitter = 0 (Default)
+id = 1
+data
+  file = data/methionine_cycle/stan_input_data.json
+init = data/methionine_cycle/inits.json
+random
+  seed = 85706
+output
+  file = /Users/tedgro/dtu/projects/minimal_maudfail/output/methionine_cycle/cmdstan-2.27.0-rc1/model-202107091258-1.csv
+  diagnostic_file =  (Default)
+  refresh = 1
+  sig_figs = -1 (Default)
+  profile_file = profile.csv (Default)
+
+
+Gradient evaluation took 0.073597 seconds
+1000 transitions using 10 leapfrog steps per transition would take 735.97 seconds.
+Adjust your expectations accordingly!
+
+
+WARNING: There aren't enough warmup iterations to fit the
+         three stages of adaptation as currently configured.
+         Reducing each adaptation stage to 15%/75%/10% of
+         the given number of warmup iterations:
+           init_buffer = 7
+           adapt_window = 38
+           term_buffer = 5
+
+Iteration:  1 / 100 [  1%]  (Warmup)
+Iteration:  2 / 100 [  2%]  (Warmup)
+Iteration:  3 / 100 [  3%]  (Warmup)
+Iteration:  4 / 100 [  4%]  (Warmup)
+Iteration:  5 / 100 [  5%]  (Warmup)
+Iteration:  6 / 100 [  6%]  (Warmup)
+Iteration:  7 / 100 [  7%]  (Warmup)
+Iteration:  8 / 100 [  8%]  (Warmup)
+Iteration:  9 / 100 [  9%]  (Warmup)
+Iteration: 10 / 100 [ 10%]  (Warmup)
+Iteration: 11 / 100 [ 11%]  (Warmup)
+Iteration: 12 / 100 [ 12%]  (Warmup)
+Iteration: 13 / 100 [ 13%]  (Warmup)
+Iteration: 14 / 100 [ 14%]  (Warmup)
+Iteration: 15 / 100 [ 15%]  (Warmup)
+Iteration: 16 / 100 [ 16%]  (Warmup)
+Iteration: 17 / 100 [ 17%]  (Warmup)
+Iteration: 18 / 100 [ 18%]  (Warmup)
+Iteration: 19 / 100 [ 19%]  (Warmup)
+Iteration: 20 / 100 [ 20%]  (Warmup)
+Iteration: 21 / 100 [ 21%]  (Warmup)
+Iteration: 22 / 100 [ 22%]  (Warmup)
+Iteration: 23 / 100 [ 23%]  (Warmup)
+Iteration: 24 / 100 [ 24%]  (Warmup)
+Iteration: 25 / 100 [ 25%]  (Warmup)
+Iteration: 26 / 100 [ 26%]  (Warmup)
+Iteration: 27 / 100 [ 27%]  (Warmup)
+Iteration: 28 / 100 [ 28%]  (Warmup)
+Iteration: 29 / 100 [ 29%]  (Warmup)
+Iteration: 30 / 100 [ 30%]  (Warmup)
+Iteration: 31 / 100 [ 31%]  (Warmup)
+Iteration: 32 / 100 [ 32%]  (Warmup)
+Iteration: 33 / 100 [ 33%]  (Warmup)
+Iteration: 34 / 100 [ 34%]  (Warmup)
+Iteration: 35 / 100 [ 35%]  (Warmup)
+Iteration: 36 / 100 [ 36%]  (Warmup)
+Iteration: 37 / 100 [ 37%]  (Warmup)
+Iteration: 38 / 100 [ 38%]  (Warmup)
+Iteration: 39 / 100 [ 39%]  (Warmup)
+Iteration: 40 / 100 [ 40%]  (Warmup)
+Iteration: 41 / 100 [ 41%]  (Warmup)
+Iteration: 42 / 100 [ 42%]  (Warmup)
+Iteration: 43 / 100 [ 43%]  (Warmup)
+Iteration: 44 / 100 [ 44%]  (Warmup)
+Iteration: 45 / 100 [ 45%]  (Warmup)
+Iteration: 46 / 100 [ 46%]  (Warmup)
+Iteration: 47 / 100 [ 47%]  (Warmup)
+Iteration: 48 / 100 [ 48%]  (Warmup)
+Iteration: 49 / 100 [ 49%]  (Warmup)
+Iteration: 50 / 100 [ 50%]  (Warmup)
+Iteration: 51 / 100 [ 51%]  (Sampling)
+Iteration: 52 / 100 [ 52%]  (Sampling)
+Iteration: 53 / 100 [ 53%]  (Sampling)
+Iteration: 54 / 100 [ 54%]  (Sampling)
+Iteration: 55 / 100 [ 55%]  (Sampling)
+Iteration: 56 / 100 [ 56%]  (Sampling)
+Iteration: 57 / 100 [ 57%]  (Sampling)
+Iteration: 58 / 100 [ 58%]  (Sampling)
+Iteration: 59 / 100 [ 59%]  (Sampling)
+Iteration: 60 / 100 [ 60%]  (Sampling)
+Iteration: 61 / 100 [ 61%]  (Sampling)
+Iteration: 62 / 100 [ 62%]  (Sampling)
+Iteration: 63 / 100 [ 63%]  (Sampling)
+Iteration: 64 / 100 [ 64%]  (Sampling)
+Iteration: 65 / 100 [ 65%]  (Sampling)
+Iteration: 66 / 100 [ 66%]  (Sampling)
+Iteration: 67 / 100 [ 67%]  (Sampling)
+Iteration: 68 / 100 [ 68%]  (Sampling)
+Iteration: 69 / 100 [ 69%]  (Sampling)
+Iteration: 70 / 100 [ 70%]  (Sampling)
+Iteration: 71 / 100 [ 71%]  (Sampling)
+Iteration: 72 / 100 [ 72%]  (Sampling)
+Iteration: 73 / 100 [ 73%]  (Sampling)
+Iteration: 74 / 100 [ 74%]  (Sampling)
+Iteration: 75 / 100 [ 75%]  (Sampling)
+Iteration: 76 / 100 [ 76%]  (Sampling)
+Iteration: 77 / 100 [ 77%]  (Sampling)
+Iteration: 78 / 100 [ 78%]  (Sampling)
+Iteration: 79 / 100 [ 79%]  (Sampling)
+Iteration: 80 / 100 [ 80%]  (Sampling)
+Iteration: 81 / 100 [ 81%]  (Sampling)
+Iteration: 82 / 100 [ 82%]  (Sampling)
+
+Non-steady state in experiment 1.
+Balanced metabolite concentration at 600 seconds: [87.1697,7.65002e-13,1.0962e-07,4.82688e-14,6.70981e-60]
+Balanced metabolite concentration at 610 seconds: [88.6169,8.02508e-13,1.07255e-07,5.06353e-14,7.0271e-60]
+flux: [2.56678e-10,-2.63684e-11,2.56678e-10,8.19059e-08,1.07017e-57,1.42777e-08,2.73311e-11,0.144724,7.88294e-55,4.54222e-54]
+conc_init: [0.337216,0.003076,0.00571,0.001286,1.4183,0.754485,0.002245,0.058624,1.46579,2.07501,0.000797,0.003568,0.900556,0.003313,0.001205,0.23933,1.03714,0.361268,0.000125,1.62668,0.023195]
+conc_unbalanced: [0.0290936,1.72918,2.59548,0.00124197,0.0457041,1.60176,0.366398,0.761737,0.00330136,0.00139505,0.211369,1.21697,0.159032,0.000154696,1.45776,0.0267904]
+conc_enzyme_experiment: [1.12186,1.18483,1.53528,0.934065,1.15001,1.1196,0.979183,1.00968,1.199]
+km: [0.0381559,0.0767404,0.00164494,0.012822,28.3382,0.0205039,0.00340991,0.000453721,0.0143825,0.00302875,2.48739,0.829114,5.42301,0.0241812,0.25769,6.66888,0.151098,0.00996061,0.00835268,0.00537104,0.0101983,0.00249536,0.00266396,0.0824587,0.0791613,0.0231362]
+drain: [0.117484,0.676953]
+kcat: [275.786,11.688,50.2039,3.0219,13.8595,0.952088,1.03364,1.39996,3.36333]
+keq: [0.00215124,6.03441e-50,6.02752e+55,7.24491e-05,6.81514e+42,6.81514e+42,66.1254,1.71534e-46,8.11153e+15,3.38387e+131,2.95519e-132]
+ki: [1.12028,0.000791092]
+diss_t: [0.0335416,0.000906732]
+diss_r: [2.28039,0.121746,0.21281,0.000374292]
+transfer_constant: [3.92676,0.0376186,0.484856,0.611072]
+kcat_phos: []
+conc_phos_experiment: []
+
+Iteration: 83 / 100 [ 83%]  (Sampling)
+Iteration: 84 / 100 [ 84%]  (Sampling)
+Iteration: 85 / 100 [ 85%]  (Sampling)
+Iteration: 86 / 100 [ 86%]  (Sampling)
+Iteration: 87 / 100 [ 87%]  (Sampling)
+Iteration: 88 / 100 [ 88%]  (Sampling)
+Iteration: 89 / 100 [ 89%]  (Sampling)
+Iteration: 90 / 100 [ 90%]  (Sampling)
+Iteration: 91 / 100 [ 91%]  (Sampling)
+Iteration: 92 / 100 [ 92%]  (Sampling)
+Iteration: 93 / 100 [ 93%]  (Sampling)
+Iteration: 94 / 100 [ 94%]  (Sampling)
+Iteration: 95 / 100 [ 95%]  (Sampling)
+Iteration: 96 / 100 [ 96%]  (Sampling)
+Iteration: 97 / 100 [ 97%]  (Sampling)
+Iteration: 98 / 100 [ 98%]  (Sampling)
+Iteration: 99 / 100 [ 99%]  (Sampling)
+Iteration: 100 / 100 [100%]  (Sampling)
+
+ Elapsed Time: 6.973 seconds (Warm-up)
+               7.338 seconds (Sampling)
+               14.311 seconds (Total)
+

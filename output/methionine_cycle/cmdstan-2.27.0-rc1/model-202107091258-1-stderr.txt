@@ -1,0 +1,405 @@
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[1] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[3] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[5] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[5] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[5] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[5] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode At t = 0 and h = 2.29189e-135, the corrector convergence test failed repeatedly or with |h| = hmin. Error code: -4 (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[5] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode At t = 0 and h = 2.29189e-135, the corrector convergence test failed repeatedly or with |h| = hmin. Error code: -4 (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[5] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[5] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[5] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[5] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Non-steady state in experiment 1 (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 410, column 6 to column 51)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode At t = 0 and h = 1.85559e-118, the corrector convergence test failed repeatedly or with |h| = hmin. Error code: -4 (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[10] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[5] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: ode_adjoint_tol_ctl: ode parameters and data[2] is inf, but must be finite! (in '/Users/tedgro/dtu/projects/minimal_maudfail/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
