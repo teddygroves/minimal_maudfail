@@ -36,3 +36,22 @@ python script.py
 ```shell
 ls output/linear/*
 ```
+
+The python file `script.py` is quite lightweight - it just sets the version of
+cmdstan that cmdstanpy will use, deletes any model files, compiles a new model
+using cmdstanpy and samples with it using the input data json file, inits json
+file and sampler configuration toml file from the folder
+`data/methionine_cycle`.
+
+To change the sampler configuration, edit the table `sample_kwargs` in the file
+`data/methionine_cycle/config.toml`.
+
+To change the ode tolerances, edit the file
+`data/methionine_cycle/stan_input_data.json`.
+
+To change the initial parameter values, edit the file
+`data/methionine_cycle/inits.json`.
+
+To remove all cmdstan folders, run `make clean-cmdstan`.
+
+to remove all Stan output files, run `make clean-results`.
