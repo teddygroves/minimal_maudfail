@@ -1,13 +1,12 @@
 use_inits_file= true
 
 [sample_kwargs]
-iter_warmup = 500
-iter_sampling = 500
+iter_warmup = 50
+iter_sampling = 50
 max_treedepth = 11
 chains = 1
 save_warmup = true
 show_progress = true
 step_size = 1e-6
 refresh = 1
-metric = "dense_e"
 

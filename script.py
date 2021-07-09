@@ -14,7 +14,7 @@ from cmdstanpy import CmdStanModel, set_cmdstan_path
 import os
 import toml
 
-DATA_DIRNAME = "linear"
+DATA_DIRNAME = "methionine_cycle"
 
 MODEL_FILE = "model.stan"
 DATA_DIR = os.path.join("data", DATA_DIRNAME)
