@@ -41,7 +41,8 @@ for (i in 1:length(cmdstanVersions)){
   if (!dir.exists(outputDirCmdstan)){
     dir.create(outputDirCmdstan)
   }
-  if ("use_inits_file" %in% colnames(config)){
+  sampleKwargs$inits <- 0
+  if (with(config, exists("use_inits_file"))){
     sampleKwargs$inits <- file.path(dataDir, "inits.json")
   }
   sampleKwargs$output_dir <- outputDirCmdstan
@@ -58,6 +59,7 @@ for (i in 1:length(cmdstanVersions)){
              output_dir=sampleKwargs$output_dir,
              step_size=sampleKwargs$step_size,
              metric=sampleKwargs$metric,
-             max_treedepth=sampleKwargs$max_treedepth)
+             max_treedepth=sampleKwargs$max_treedepth,
+             init=sampleKwargs$inits)
 }
 
