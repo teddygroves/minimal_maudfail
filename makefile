@@ -46,5 +46,6 @@ clean-results:
 	$(RM) $(OUTPUT_TXTS)
 
 clean-cmdstan:
+	$(RM) -rf $(CMDSTAN_ODE_ADJOINT_V2)
 	$(RM) -rf $(CMDSTAN_2270)
 	$(RM) -rf $(CMDSTAN_2270_RC1)
