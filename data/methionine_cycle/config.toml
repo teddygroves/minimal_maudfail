@@ -1,8 +1,8 @@
 use_inits_file= true
 
 [sample_kwargs]
-iter_warmup = 500
-iter_sampling = 500
+iter_warmup = 20
+iter_sampling = 20
 max_treedepth = 11
 chains = 1
 save_warmup = true

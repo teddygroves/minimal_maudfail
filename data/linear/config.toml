@@ -2,6 +2,9 @@
 chains = 1
 iter_warmup = 10
 iter_sampling = 10
+max_treedepth = 11
 save_warmup = true
 show_progress = true
+step_size = 0.025
+metric = "diag_e"
 refresh = 1
