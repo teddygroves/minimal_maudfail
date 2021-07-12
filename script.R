@@ -10,7 +10,6 @@ specifies whether or not to use `inits.json`.
 """
 library("cmdstanr")
 library("configr")
-library("rstudioapi")
 
 modelName <- "methionine_cycle" # Change model here ["linear", "methionine_cycle", "G6PtoPEP"]
 setwd(dirname(getActiveDocumentContext()$path)) 
