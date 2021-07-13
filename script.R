@@ -7,9 +7,9 @@
 # `config.toml` Should have a table `sample_kwargs` with keyword arguments to
 # `cmdstanpy.CmdStanModel.sample` and a boolean field `use_inits_file` that
 # specifies whether or not to use `inits.json`.
-# install.packages("cmdstanr")
-# install.packages("configr")
-# install.packages("rstudioapi")
+install.packages("cmdstanr")
+install.packages("configr")
+install.packages("rstudioapi")
 library("cmdstanr")
 library("configr")
 library("rstudioapi")
@@ -18,12 +18,12 @@ library("rstudioapi")
 setwd(dirname(getActiveDocumentContext()$path))
 
 ## Installing all CmdStan versions tested [Required Only Once]
-# install_cmdstan(dir="cmdstan", 
-#                 release_url="https://github.com/rok-cesnovar/cmdstan/releases/download/adjoint_ODE_v2/cmdstan-ode-adjoint-v2.tar.gz")
-# install_cmdstan(dir="cmdstan", 
-#                 version="2.27.0")
-# install_cmdstan(dir="cmdstan", 
-#                 version="2.27.0-rc1")
+install_cmdstan(dir="cmdstan",
+                release_url="https://github.com/rok-cesnovar/cmdstan/releases/download/adjoint_ODE_v2/cmdstan-ode-adjoint-v2.tar.gz")
+install_cmdstan(dir="cmdstan",
+                version="2.27.0")
+install_cmdstan(dir="cmdstan",
+                version="2.27.0-rc1")
 
 
 
