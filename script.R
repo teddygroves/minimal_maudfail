@@ -1,19 +1,33 @@
-"""Configure the variable `DATA_DIRNAME` with the name of a director that lives
-in the `data` directory.
-
-The specified directory should contain files called `stan_input_data.json`,
-`config.toml` and optionally `inits.json`.
-
-`config.toml` Should have a table `sample_kwargs` with keyword arguments to
-`cmdstanpy.CmdStanModel.sample` and a boolean field `use_inits_file` that
-specifies whether or not to use `inits.json`.
-"""
+# Configure the variable `DATA_DIRNAME` with the name of a director that lives
+# in the `data` directory.
+# 
+# The specified directory should contain files called `stan_input_data.json`,
+# `config.toml` and optionally `inits.json`.
+# 
+# `config.toml` Should have a table `sample_kwargs` with keyword arguments to
+# `cmdstanpy.CmdStanModel.sample` and a boolean field `use_inits_file` that
+# specifies whether or not to use `inits.json`.
+# install.packages("cmdstanr")
+# install.packages("configr")
+# install.packages("rstudioapi")
 library("cmdstanr")
 library("configr")
 library("rstudioapi")
 
+# Defining all paths relative to this directory
+setwd(dirname(getActiveDocumentContext()$path))
+
+## Installing all CmdStan versions tested [Required Only Once]
+# install_cmdstan(dir="cmdstan", 
+#                 release_url="https://github.com/rok-cesnovar/cmdstan/releases/download/adjoint_ODE_v2/cmdstan-ode-adjoint-v2.tar.gz")
+# install_cmdstan(dir="cmdstan", 
+#                 version="2.27.0")
+# install_cmdstan(dir="cmdstan", 
+#                 version="2.27.0-rc1")
+
+
+
 modelName <- "methionine_cycle" # Change model here ["linear", "methionine_cycle", "G6PtoPEP"]
-setwd(dirname(getActiveDocumentContext()$path)) 
 stanModelFile <- "model.stan"
 dataDir <- file.path("data", modelName)
 stanInputDataFile <- file.path(dataDir, "stan_input_data.json")
